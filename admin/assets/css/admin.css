@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.login-form form {
+    width: 50rem;
+    font-size: 2rem;
+}
+
+.login-form input {
+    font-size: 2rem;
+}
+
+.login-form button {
+    font-size: 2rem;
+}
+
+
+
+.add-form label{
+    font-size: 2rem;
+}
+
+.add-form input,
+.add-form textarea,
+.add-form select{
+    font-size: 1.5rem;
+    width: 50rem;
+}
+
+.add-form button{
+    font-size: 2rem;
+}
+
+#summary{
+    resize: none;
+    visibility: visible !important;
+}
+
+.category-list{
+    font-size: 2rem;
+}

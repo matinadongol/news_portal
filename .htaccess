@@ -1,0 +1,11 @@
+Options -Indexes
+
+
+
+#to remove .php extention in url
+Options +MultiViews
+DefaultType application/x-httpd-php
+
+
+
+ErrorDocument 403 http://localhost/news_portal/
